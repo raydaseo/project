@@ -1,0 +1,133 @@
+.bg-register-image {
+    background: url("/logo.png") no-repeat;
+    background-position: center;
+}
+
+.bg-login-image {
+    background: url("/logo.png") no-repeat;
+    background-position: center;
+  }
+
+  .center-container {
+    text-align: center;
+  }
+  
+   /* Gaya label */
+   .badge {
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-bottom: 5px;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* untuk user */
+
+/* Remove the bullet point from list items */
+.nav-item.dropdown {
+    list-style: none;
+}
+
+/* Remove the caret symbol from the dropdown toggle */
+.nav-item.dropdown .nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+/* Display the dropdown on click */
+.clickable + .dropdown-menu {
+    display: none;
+}
+
+.clickable:focus + .dropdown-menu {
+    display: block;
+}
+
+/* Style for user dropdown */
+.nav-item.dropdown {
+    position: static;
+    right: 0;
+    left: auto;
+    
+}
+
+.nav-link.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 0.85rem;
+    color: #858796;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f8f9fa; /* Hover background color */
+}
+
+.img-profile {
+    width: 30px; /* Adjust the size of the profile image */
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px; /* Adjust the margin between text and image */
+}
+
+/* Style for user name and level */
+.text-gray-600 {
+    font-weight: bold;
+}
+
+/* Style for user level */
+.small {
+    color: #6c757d;
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for icons within dropdown items */
+.dropdown-item i {
+    margin-right: 10px; /* Adjust the margin between icon and text */
+}
+
+#error-message {
+    color: red;
+}

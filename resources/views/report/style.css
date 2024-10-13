@@ -1,0 +1,93 @@
+/* Style untuk slip gaji */
+.salary-slip {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.salary-slip h2 {
+    text-align: center;
+}
+
+.employee-info {
+    margin-bottom: 20px;
+}
+
+.employee-info div {
+    margin-bottom: 10px;
+}
+
+.salary-details {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.salary-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.salary-details th,
+.salary-details td {
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.letterhead {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.logo {
+    margin-bottom: -30px;
+    margin-top: -40px;
+}
+
+.logo img {
+    width: 80px;
+    /* Sesuaikan ukuran logo sesuai kebutuhan */
+}
+
+.course-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.address {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.course-info {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: right;
+    margin-right: 50px;
+    padding-top: 40px;
+}
+
+.signature {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    margin: 20px auto;
+}
